@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="vcrpp_browser.jnlp">
+  <information>
+    <title>vcrpp</title>
+    <vendor>dzmitry</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="vcrpp.jar" size="22243" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="vcrpp.Vcrpp"  name="vcrpp" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
